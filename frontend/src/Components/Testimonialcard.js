@@ -150,7 +150,9 @@ const formData = new FormData();
    <>
       <section className='about-testimonial-wrapper'>
          <div className='testimonial-inner-wrapper'>
-            <div className='d-flex flex-column justify-content-center align-items-center' data-aos="fade-down">
+            <div className='"position-relative" d-flex flex-column justify-content-center align-items-center' 
+            data-aos="fade-down"
+            >
             <p>Client Testimonial</p>
             <h5>Adventure Talks</h5>
             <button className='btn-add-comment' onClick={()=>{setOpen(true)}}><MdAddComment className='add-comment-icon'/></button>

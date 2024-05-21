@@ -89,7 +89,9 @@ const Home = () => {
    </section>
    <section className='latest-wrapper'>
      <div className='container-xxl'>
-          <div className='latest-inner-wrapper' data-aos="fade-up">
+          <div className='latest-inner-wrapper' 
+          data-aos="fade-up"
+          >
                <div className='latest-left-grid'>
                <Carousel>
                <div className='latest-card-wrapper py-3'>
