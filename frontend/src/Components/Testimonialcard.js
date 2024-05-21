@@ -150,7 +150,7 @@ const formData = new FormData();
    <>
       <section className='about-testimonial-wrapper'>
          <div className='testimonial-inner-wrapper'>
-            <div className='"position-relative" d-flex flex-column justify-content-center align-items-center' 
+            <div className='position-relative d-flex flex-column justify-content-center align-items-center' 
             data-aos="fade-down"
             >
             <p>Client Testimonial</p>
