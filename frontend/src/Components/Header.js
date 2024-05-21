@@ -20,15 +20,18 @@ const Header = () => {
 
    const[show,setShow]= useState(true);
 
-   const controlNavbar=()=>{
-      if(window.scrollY > 150)
-      {
-         setShow(false)
-      }  
-      else{
-         setShow(true)
+   let lastScrollY = window.scrollY;
+
+   const controlNavbar = () => {
+      if (window.scrollY === 0) {
+         setShow(true); 
+      } else if (window.scrollY > lastScrollY) {
+         setShow(true); 
+      } else if (window.scrollY < lastScrollY) {
+         setShow(false); 
       }
-      }
+      lastScrollY = window.scrollY;
+   };
 
       const scrollToTop = () => {
          window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
