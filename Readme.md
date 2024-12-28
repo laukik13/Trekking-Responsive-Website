@@ -1,6 +1,6 @@
 # Trekking Website
 
-Welcome to the Trekking Website project! This project is designed to help users explore and book treks, with features for both users and admins. It's built using React.js with Bootstrap 5 for the frontend, and Express.js, Node.js, and MongoDB for the backend. Additionally, the Ant Design package is used to add extra components.
+Welcome to the Trekking Website project! This project is designed to help users explore and book treks, with features for both users and admins. It's built using React.js with Bootstrap 5 for the frontend, and Express.js, Node.js, and MongoDB for the backend. Additionally, the Ant Design package is used to add extra components. This trekking website design is inspired by Envato Market's web themes and templates.
 
 ## About
 
